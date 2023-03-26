@@ -1,6 +1,6 @@
 # Slurm-NeSI
 
-This is a simple Slurm script (`slurm-NeSI.sh`) that runs a Python script (`simple_task.py`) on a NeSI cluster. The Python script takes two arguments, `SLURM_ARRAY_TASK_ID` and `SLURM_ARRAY_TASK_STEP`, to determine which algorithm and dataset to use for each task.
+This is a simple Slurm script (`slurm-NeSI.sh`) that runs Python jobs (`simple_task.py`) on a NeSI cluster. The Python script takes two arguments, `SLURM_ARRAY_TASK_ID` and `SLURM_ARRAY_TASK_STEP`, to determine which algorithm and dataset to use for each task.
 
 ## Usage
 
